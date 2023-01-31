@@ -1,0 +1,1 @@
+{ ".tsx": "eslint", ".{tsx,css,json,md}": "prettier --write" }
