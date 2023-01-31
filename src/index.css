@@ -1,0 +1,64 @@
+body {
+  padding-top: 30px;
+  background: rgba(244, 175, 48, 0.6);
+  color: #eee;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 62.5%;
+  padding: 5vw;
+}
+
+.row {
+  font-size: 3.8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5vw;
+}
+form {
+  border-radius: 20px;
+  background-color: rgb(252, 235, 235);
+  width: 30%;
+  color: orange;
+  padding: 0 0 3vw 0;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+label {
+  padding-top: 2vw;
+  font-weight: 500;
+}
+input {
+  font-size: 2vw;
+  font-family: inherit;
+  font-weight: 700;
+  padding: 0.5vw 1vw;
+  color: #eee;
+  width: 14vw;
+  border: none;
+  background: rgb(75, 51, 7);
+  height: 3vw;
+  border-radius: 10px;
+}
+button {
+  text-transform: uppercase;
+  font-size: 2.2vw;
+  font-weight: 700;
+  border-radius: 50px;
+  padding: 0.5rem 7vw;
+  border: none;
+  color: #eee;
+  background: orange;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.gif {
+  max-width: 100%;
+  margin-top: 100px;
+}
+.error {
+  display: none;
+}
+.error.on {
+  display: block;
+}
